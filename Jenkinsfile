@@ -8,7 +8,7 @@ pipeline {
             steps {
                echo 'executing yarn'
                nodejs('NodeJS-10') {
-                 sh 'yarn installl'
+                 sh 'yarn install'
                  }
                }
              }
