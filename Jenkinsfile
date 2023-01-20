@@ -10,7 +10,7 @@ pipeline {
                nodejs('NodeJS-10') {
                  sh 'yarn installl'
                  }
-
+               }
              }
           stage ("run backend") {
              steps {
